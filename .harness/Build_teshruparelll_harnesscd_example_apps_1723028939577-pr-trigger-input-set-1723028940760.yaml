@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_teshruparelll_harnesscd_example_apps_1723028939577-pr-trigger-input-set
+  identifier: Build_teshruparelll_harnesscd_example_apps_1723028939577prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: CI
+  pipeline:
+    identifier: Build_teshruparelll_harnesscd_example_apps_1723028939577
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
